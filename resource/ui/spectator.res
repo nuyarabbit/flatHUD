@@ -16,31 +16,28 @@
 	}
 	"topbar"
 	{
-		"ControlName"		"Panel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"TopBar"
 		"xpos"			"0"
 		"ypos"			"0"
-		"tall"			"84"	[$WIN32]
-		"tall_minmode"			"20"	[$WIN32]
-		"tall"			"104"	[$X360]		
+		"tall"			"20"
 		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
+		"bgcolor_override"	"26 26 26 255"
 	}
+
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
 		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
-		"ypos_minmode"	"r20"
-		"tall"			"70"	[$WIN32]
+		"ypos"			"r20"
+		"tall"			"70"
 		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -52,48 +49,49 @@
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
 		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
-		"ypos_minmode"	"r0"
-		"tall"			"70"	[$WIN32]		// this needs to match the size of BottomBar
-		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
+		"ypos"			"r20"
+		"tall"			"70"			// this needs to match the size of BottomBar
 		"wide"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"tabPosition"		"0"
 	}
+
+	"TFLogoSpinner"
+	{
+		"ControlName"	"CTFLogoPanel"
+		"fieldname"		"TFLogoSpinner"
+		"xpos"			"-15"
+		"ypos"			"-15"
+		"zpos"			"500"
+		"wide"			"50"
+		"tall"			"50"
+		"visible"		"1"
+
+		"radius"		"8"
+		"velocity"		"20"
+
+		"fgcolor_override"	"TanLight"
+
+	}
+
 	"ReinforcementsLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"	[$WIN32]
-		"xpos_minmode"	"0"
-		"xpos"			"c-200"	[$X360]
-		"ypos"			"50"	[$WIN32]
-		"ypos_minmode"	"3"		[$WIN32]
-		"ypos"			"67"	[$X360]
-		"ypos_hidef"	"79"
-		"ypos_lodef"	"85"
-		"wide"			"600"	[$WIN32]
-		"wide_minmode"	"300"
-		"wide"			"400"	[$X360]
-		"tall"			"18"
-		"tall_hidef"		"23"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		"xpos"			"-40"
+		"ypos"			"-16"
+		"wide"			"600"
+		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"center"
-		"textAlignment_minmode"		"west"
-		"use_proportional_insets_minmode"	"1"
-		"textinsetx_minmode"				"5"
-		"font"			"HudFontMediumSmallSecondary"
-		"font_minmode"			"HudFontSmall"
+		"textAlignment"		"west"
+		"font"			"HudFontSmallestBold"
+
+		"pin_to_sibling"	"TFLogoSpinner"
 	}
 	"BuyBackLabel"
 	{

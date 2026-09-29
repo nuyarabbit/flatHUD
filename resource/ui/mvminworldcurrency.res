@@ -25,7 +25,7 @@
 		"tall"			"55"
 		"visible"		"1"
 		"enabled"		"1"
-		"alpha"			"191.25"
+		"alpha"			"102"
 		"image"			"replay/thumbnails/mvm_inworld_money_shadow"
 		"scaleImage"	"1"
 

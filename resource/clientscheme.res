@@ -208,6 +208,12 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+
+		"FlatHUDBlack"				"26 26 26 255"
+		"FlatHUDTransparentBlack"	"26 26 26 102"
+
+		"FlatHUDRed"				"201 58 58 255"
+		"FlatHUDBlue"				"72 125 205 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////

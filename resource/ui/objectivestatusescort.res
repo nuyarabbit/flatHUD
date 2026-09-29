@@ -26,33 +26,27 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LevelBar"	
 		"xpos"			"73"
-		"ypos"			"123"
+		"ypos"			"120"
 		"zpos"			"0"
 		"wide"			"254"
-		"tall"			"4"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		""
-		"image"			"../hud/cart_track"
+		"image"			"replay/thumbnails/payload/cart_track"
 		"scaleImage"	"1"
 		
 		"if_multiple_trains"
 		{
 			"ypos"			"114"
-			"zpos"			"3"
 			"tall"			"12"
-			"image"			"../hud/cart_track_neutral_opaque"
+			"zpos"			"-1"
 		}
 		
 		"if_single_with_hills"
 		{
-			"ypos"			"116"
-			"ypos_minmode"	"120"
-			"tall"			"18"
-			"tall_minmode"	"10"
-			"image"			"../hud/cart_track_neutral_opaque"
-		}		
-	}	
+			"ypos"			"120"
+		}
+	}
 	
 	"ProgressBar"
 	{
@@ -81,65 +75,61 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"	
 		"xpos"			"59"
-		"xpos_minmode"		"64"		
 		"ypos"			"111"
-		"ypos_minmode"		"116"
 		"zpos"			"1"
 		"wide"			"28"
-		"wide_minmode"		"18"
 		"tall"			"28"
-		"tall_minmode"		"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			"../hud/cart_home_blue"
+		"image"			"replay/thumbnails/payload/cart_home_blue"
 		"scaleImage"	"1"	
 		
 		"if_team_red"
 		{
-			"image"			"../hud/cart_home_red"
+			"image"			"replay/thumbnails/payload/cart_home_red"
 		}
 		
 		"if_single_with_hills_blue"
 		{
-			"image"			"../hud/cart_home_blue_opaque"
+			"image"			"replay/thumbnails/payload/cart_home_blue"
 		}		
 		
 		"if_single_with_hills_red"
 		{
-			"image"			"../hud/cart_home_red_opaque"
+			"image"			"replay/thumbnails/payload/cart_home_red"
 		}		
 		
 		"if_multiple_trains"
 		{
 			"xpos"			"59"
-			"zpos"			"5"
-			"wide"			"14"
-			"tall"			"14"
+			"zpos"			"10"
+			"wide"			"18"
+			"tall"			"18"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}
 		
 		"if_multiple_trains_top"
 		{
-			"ypos"			"113"
+			"ypos"			"111"
 		}
 		
 		"if_multiple_trains_bottom"
 		{
-			"ypos"			"113"
+			"ypos"			"111"
 		}
 		
 		"if_multiple_trains_red"
 		{
-			"image"			"../hud/cart_home_red_square"
+			"image"			"replay/thumbnails/payload/cart_home_red"
 		}
 		
 		"if_multiple_trains_blue"
 		{
-			"image"			"../hud/cart_home_blue_square"
+			"image"			"replay/thumbnails/payload/cart_home_blue"
 		}
 	}
 	
@@ -148,14 +138,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SimpleControlPointTemplate"	
 		"xpos"			"60"
-		"xpos_minmode"		"65"		
-		"ypos"			"111"
-		"ypos_minmode"		"116"		
+		"ypos"			"113"
 		"zpos"			"1"
-		"wide"			"28"
-		"wide_minmode"		"18"		
-		"tall"			"28"
-		"tall_minmode"		"18"
+		"wide"			"24"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -168,10 +154,10 @@
 		"if_multiple_trains"
 		{
 			"xpos"			"61"
-			"ypos"			"114"
+			"ypos"			"111"
 			"zpos"			"5"	
-			"wide"			"12"
-			"tall"			"12"
+			"wide"			"18"
+			"tall"			"18"
 		}
 	}
 
@@ -202,25 +188,16 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"HudFontSmallest"		
-			"font_minmode"		"ItemFontAttribSmall"		
-			"xpos"			"35"
-			"xpos_minmode"		"23"			
-			"ypos"			"82"
-			"ypos_minmode"		"53"			
+			"font"			"HudFontSmallestBold"
+			"xpos"			"34"
+			"ypos"			"90"
 			"zpos"			"2"
-			"wide"			"10"
-			"wide_minmode"		"7"
-			"tall"			"10"
-			"tall_minmode"		"7"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"wide"			"14"
+			"tall"			"11"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%recede%"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			
 			"if_multiple_trains"
 			{
@@ -246,31 +223,23 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImage"	
 			"xpos"			"20"
-			"xpos_minmode"		"13"
 			"ypos"			"77"
-			"ypos_minmode"		"50"
-			"zpos"			"1"
+			"zpos"			"2"
 			"wide"			"40"
-			"wide_minmode"		"26"
 			"tall"			"40"
-			"tall_minmode"		"26"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		""
-			"image"			"../hud/cart_neutral"
+			"image"			"replay/thumbnails/payload/cart_neutral"
 			"scaleImage"	"1"
 			
 			"if_team_blue"
 			{
-				"image"			"../hud/cart_blue"
+				"image"			"replay/thumbnails/payload/cart_blue"
 			}		
 			
 			"if_team_red"
 			{
-				"image"			"../hud/cart_red"
+				"image"			"replay/thumbnails/payload/cart_red"
 			}
 			
 			"if_multiple_trains"
@@ -288,7 +257,7 @@
 			"fieldName"		"EscortItemImageBottom"	
 			"xpos"			"20"
 			"ypos"			"117"
-			"zpos"			"1"
+			"zpos"			"2"
 			"wide"			"40"
 			"tall"			"40"
 			"autoResize"	"0"
@@ -297,23 +266,23 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"../hud/cart_neutral_bottom"
+			"image"			"replay/thumbnails/payload/cart_bottom_neutral"
 			"scaleImage"	"1"	
 			
 			"if_team_blue"
 			{
-				"image"			"../hud/cart_blue_bottom"
+				"image"			"replay/thumbnails/payload/cart_bottom_blue"
 			}			
 			
 			"if_team_red"
 			{
-				"image"			"../hud/cart_red_bottom"
+				"image"			"replay/thumbnails/payload/cart_bottom_red"
 			}
 			
 			"if_multiple_trains"
 			{
 				"xpos"			"11"
-				"ypos"			"71"
+				"ypos"			"72"
 				"wide"			"30"
 				"tall"			"30"
 			}			
@@ -424,26 +393,18 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"HudFontSmallest"
+			"font"			"HudFontSmallestBold"
 			"font_minmode"		"ItemFontAttribSmall"
-			"xpos"			"39"
-			"xpos_minmode"		"25"
-			"ypos"			"82"
-			"ypos_minmode"		"53"
+			"xpos"			"25"
+			"ypos"			"90"
 			"zpos"			"4"
 			"wide"			"30"
-			"wide_minmode"		"20"
 			"tall"			"10"
-			"tall_minmode"		"7"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"labelText"		"#ControlPointIconCappers"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			
+			"textAlignment"	"center"
+
 			"if_multiple_trains"
 			{
 				"font"			"ItemFontAttribSmall"

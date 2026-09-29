@@ -31,7 +31,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"alpha"			"191.25"
+		"alpha"			"102"
 		"image"			"replay/thumbnails/square_black"
 		"scaleImage"		"1"
 
@@ -57,7 +57,7 @@
 		"scaleImage"			"1"
 		"image"				"../hud/objectives_timepanel_progressbar"
 		"color_active"			"TimerProgress.Active"
-		"color_inactive"		"26 26 26 255"
+		"color_inactive"		"FlatHUDBlack"
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
 
@@ -77,7 +77,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/square_black"
+		"image"			"replay/thumbnails/square_tandarker"
 		"scaleImage"		"1"
 
 		if_match
@@ -126,7 +126,7 @@
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/meter_counter_neutral"
+		"image"			"replay/thumbnails/meter_counter_black"
 		"scaleImage"		"1"
 
 		if_match
@@ -139,8 +139,8 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"16"
-		"ypos"			"33"
-		"zpos"			"5"
+		"ypos"			"17"
+		"zpos"			"11"
 		"wide"			"78"
 		"tall"			"19"
 		"visible"		"0"
@@ -150,7 +150,8 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
+		"fgcolor_override"		"26 26 26 255"
+		"font"			"HudFontSmallBold"
 
 		if_match
 		{
@@ -166,13 +167,13 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
 		"xpos"			"16"
-		"ypos"			"30"
-		"zpos"			"1"
+		"ypos"			"-4"
+		"zpos"			"10"
 		"wide"			"78"
-		"tall"			"40"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/meter_counter_neutral"
+		"image"			"replay/thumbnails/generic_bar_white"
 		"scaleImage"		"1"	
 
 		if_match
@@ -218,7 +219,7 @@
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/meter_counter_neutral"
+		"image"			"replay/thumbnails/meter_counter_black"
 		"scaleImage"		"1"	
 
 		if_match
@@ -264,7 +265,7 @@
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/meter_counter_neutral"
+		"image"			"replay/thumbnails/meter_counter_black"
 		"scaleImage"		"1"	
 
 		if_match
@@ -277,7 +278,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"16"
-		"ypos"			"33"
+		"ypos"			"41"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -288,7 +289,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
+		"font"			"SpectatorKeyHints"
 
 		if_match
 		{
@@ -310,7 +311,7 @@
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/meter_counter_neutral"
+		"image"			"replay/thumbnails/meter_counter_black"
 		"scaleImage"		"1"
 		
 		if_match

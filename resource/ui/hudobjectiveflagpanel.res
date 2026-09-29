@@ -56,14 +56,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBGShadow"
-		"xpos"			"3"
+		"xpos"			"-3"
 		"ypos"			"-3"
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"60"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/ctf_reverse_shadow"
+		"alpha"			"102"
+		"image"			"replay/thumbnails/ctf_left_shadow"
 		"scaleImage"	"1"
 
 		"pin_to_sibling"	"LeftSideBG"
@@ -132,9 +133,10 @@
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"60"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/ctf_shadow"
+		"alpha"			"102"
+		"image"			"replay/thumbnails/ctf_right_shadow"
 		"scaleImage"	"1"
 
 		"pin_to_sibling"	"RightSideBG"
@@ -201,7 +203,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"3"
+		"xpos"			"-3"
 		"ypos"			"-3"
 		"zpos"			"7"
 		"wide"			"75"
@@ -211,7 +213,7 @@
 		"textAlignment"	"center"
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"Black"
+		"fgcolor"		"FlatHUDTransparentBlack"
 
 		"pin_to_sibling"	"BlueScore"
 		
@@ -287,7 +289,7 @@
 		"textAlignment"	"center"
 		"labelText"		"%redscore%"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"Black"
+		"fgcolor"		"FlatHUDTransparentBlack"
 		
 		"pin_to_sibling"	"RedScore"
 

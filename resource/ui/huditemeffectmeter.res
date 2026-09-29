@@ -39,7 +39,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"alpha"			"191.25"
+		"alpha"			"102"
 		"image"			"replay/thumbnails/meter_black"
 		"scaleImage"	"1"
 
@@ -65,7 +65,7 @@
 		"tabPosition"			"0"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"disabledfgcolor2_override" "26 26 26 255"
+		"disabledfgcolor2_override" "FlatHUDBlack"
 
 		"pin_to_sibling"	"ItemEffectMeterBG"
 	}
@@ -75,7 +75,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"bgcolor_override" "26 26 26 255"
+		"bgcolor_override" "FlatHUDTransparentBlack"
 		"fgcolor_override" "Tanlight"
 		"xpos"					"-10"
 		"ypos"					"-0"

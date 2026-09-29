@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/generic_meter_reverse"
+	"$color"		"{235 226 202}"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

@@ -41,7 +41,7 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"alpha"			"191.25"
+		"alpha"			"102"
 		"image"			"replay/thumbnails/killstreak_black"
 		"scaleImage"	"1"
 

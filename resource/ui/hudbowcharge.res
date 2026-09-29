@@ -15,7 +15,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"bgcolor_override" "26 26 26 255"
+		"bgcolor_override" "FlatHUDTransparentBlack"
 		"fgcolor_override" "Tanlight"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -49,7 +49,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"alpha"			"191.25"
+		"alpha"			"102"
 		"image"			"replay/thumbnails/meter_counter_black"
 		"scaleImage"	"1"
 

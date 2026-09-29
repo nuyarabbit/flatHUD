@@ -460,12 +460,12 @@
 		
 		"TextFont"		"HudFontSmallest"
 		
-		"TeamBlue"		"55 113 200 255"
-		"TeamRed"		"200 55 55 255"
+		"TeamBlue"		"FlatHUDBlue"
+		"TeamRed"		"FlatHUDRed"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"0 0 0 127.5"
+		"BaseBackgroundColor"	"FlatHUDTransparentBlack"
 		"LocalBackgroundColor"	"TanLight"
 	}
 
