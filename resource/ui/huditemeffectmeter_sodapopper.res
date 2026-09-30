@@ -65,7 +65,7 @@
 		"tabPosition"			"0"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"disabledfgcolor2_override" "FlatHUDBlack"
+		"disabledfgcolor2_override" "TanDarker"
 
 		"pin_to_sibling"	"ItemEffectMeterBG"
 	}

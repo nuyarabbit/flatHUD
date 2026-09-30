@@ -27,7 +27,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"26 26 26 255"
+		"alpha"			"0"
 	}
 
 	"BottomBar"
@@ -37,11 +37,11 @@
 		"xpos"			"0"
 		"ypos"			"r20"
 		"tall"			"70"
-		"tall_minmode"	"0"		
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"0"
+		"alpha"		"0"
 		"tabPosition"		"0"
 	}
 	"bottombarblank"
@@ -56,7 +56,42 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"alpha"		"0"
 		"tabPosition"		"0"
+	}
+
+	"NewTopBar"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"NewTopBar"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-100"
+		"tall"			"20"
+		"wide"			"f0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"bgcolor_override"			"FlatHUDBlack"
+	}
+
+	"NewBottomBar"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"NewBottomBar"
+		"xpos"			"0"
+		"ypos"			"r20"
+		"zpos"			"-100"
+		"tall"			"70"		// this needs to match the size of BottomBar
+		"wide"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"bgcolor_override"			"FlatHUDBlack"
 	}
 
 	"TFLogoSpinner"
@@ -70,18 +105,34 @@
 		"tall"			"50"
 		"visible"		"1"
 
-		"radius"		"8"
-		"velocity"		"20"
+		"radius"		"15"
+		"velocity"		"10"
 
 		"fgcolor_override"	"TanLight"
+	}
 
+	"SpinnerBackground"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"SpinnerBackground"
+		"xpos"			"-5"
+		"ypos"			"-5"
+		"zpos"			"-100"
+		"wide"			"40"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"		"replay/thumbnails/spectator/spectator_spinner"
+		"scaleImage"		"1"
+
+		"pin_to_sibling"	"TFLogoSpinner"
 	}
 
 	"ReinforcementsLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"-40"
+		"xpos"			"-45"
 		"ypos"			"-16"
 		"wide"			"600"
 		"tall"			"17"
@@ -115,10 +166,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontSmall"
-		"font_hidef"		"HudFontMedium"
-		"xpos"			"r260"	[$WIN32]
-		"ypos"			"16"	[$WIN32]
+		"font"			"HudFontSmallestBold"
+		"xpos"			"r246"	[$WIN32]
+		"ypos"			"0"
 		"xpos"			"r285"	[$X360]
 		"ypos"			"32"	[$X360]
 		"wide"			"240"	[$WIN32]
@@ -157,138 +207,147 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"center"
-		"textAlignment_lodef"		"north-west"
 		"font"			"SpectatorKeyHints"
-		"font_hidef"	"HudFontSmallest"
-		"font_lodef"	"HudFontSmall"
-		"wrap_lodef"			"1"
 	}
+
 	"SwitchCamModeKeyLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
-		"xpos"			"5"		[$WIN32]
-		"ypos"			"10"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"40"	[$X360]
-		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]
-		"tall"			"20"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"SwitchCamModeKeyImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"SwitchCamModeKeyImage"
+		"xpos"			"5"
+		"ypos"			"64"
+		"wide"			"10"
+		"tall"			"10"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
+		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ChangeTeam"
-		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
-		
+		"image"			"replay/thumbnails/icons/spacebar_key"
+		"scaleImage"	"1"
 	}
+
 	"SwitchCamModeLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
-		"xpos"			"80"	[$WIN32]
-		"ypos"			"10"	[$WIN32]
-		"xpos"			"128"	[$X360]
-		"ypos"			"40"	[$X360]		
-		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]		
+		"xpos"			"-15"
+		"ypos"			"5"
+		"wide"			"125"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_SwitchCamMode"
 		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"
+
+		"pin_to_sibling"	"SwitchCamModeKeyImage"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
-		"xpos"			"5"	[$WIN32]
-		"ypos"			"20"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"50"	[$X360]		
-		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]
-		"tall"			"20"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"FwdKeyImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"FwdKeyImage"
+		"xpos"			"5"
+		"ypos"			"36"
+		"wide"			"10"
+		"tall"			"10"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
+		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
-		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
+		"image"			"replay/thumbnails/icons/mouse_lclick"
+		"scaleImage"	"1"
 	}
+
 	"CycleTargetFwdLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
-		"xpos"			"80"	[$WIN32]
-		"ypos"			"20"	[$WIN32]
-		"xpos"			"128"	[$X360]
-		"ypos"			"50"	[$X360]		
-		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]	
+		"xpos"			"-15"
+		"ypos"			"5"
+		"wide"			"125"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_CycleTargetFwd"
 		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"
+
+		"pin_to_sibling"	"FwdKeyImage"
 	}
+
 	"CycleTargetRevKeyLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
-		"xpos"			"5"	[$WIN32]
-		"ypos"			"30"	[$WIN32]
-		"xpos"			"53"	[$X360]
-		"ypos"			"60"	[$X360]		
-		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]		
-		"tall"			"20"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"RevKeyImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"RevKeyImage"
+		"xpos"			"5"
+		"ypos"			"50"
+		"wide"			"10"
+		"tall"			"10"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
+		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Spectator_ClassOrTeamKey"
-		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
+		"image"			"replay/thumbnails/icons/mouse_rclick"
+		"scaleImage"	"1"
 	}
+
 	"CycleTargetRevLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
-		"xpos"			"80"	[$WIN32]
-		"ypos"			"30"	[$WIN32]
-		"xpos"			"128"	[$X360]
-		"ypos"			"60"	[$X360]		
-		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]
+		"xpos"			"-15"
+		"ypos"			"5"
+		"wide"			"125"
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"visible_minmode"		"0"
-		"visible"		"0"	[$X360]
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_CycleTargetRev"
 		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"
+
+		"pin_to_sibling"	"RevKeyImage"
 	}
 	"TipLabel"
 	{

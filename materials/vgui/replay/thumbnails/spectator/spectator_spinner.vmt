@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/spectator/spectator_tip_mask"
+	"$basetexture"	"vgui/replay/thumbnails/spectator/spectator_spinner_mask"
 	"$color"		"{26 26 26}"
 	"$translucent" "1"
 	"$ignorez" "1"

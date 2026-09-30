@@ -98,19 +98,19 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"56"
-		"xpos_minmode"	"61"
-		"ypos"			"40"	[$WIN32]
-		"ypos"			"55"	[$X360]
-		"zpos"			"6"
+		"xpos"			"-24"
+		"ypos"			"-3"	[$WIN32]
+		"zpos"			"10"
 		"wide"			"50"
 		"tall"			"18"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmallestBold"
 		"fgcolor"		"TanDarker"
+
+		"pin_to_sibling"	"PlayerStatusHealthImage"
 	}
 	"PlayerStatusBleedImage"
 	{
