@@ -294,31 +294,34 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TipLabel"
-		"xpos"			"15"
-		"xpos_hidef"	"60"
-		"xpos_lodef"	"45"
-		"ypos"			"r67"
-		"ypos_lodef"		"28"
-		"ypos_hidef"		"35"
-		"wide"			"145"
-		"wide_hidef"	"230"
-		"wide_lodef"	"240"
+		"xpos"			"28"
+		"ypos"			"r98"
+		"wide"			"160"
 		"tall"			"64"
-		"tall_hidef"	"70"
-		"tall_lodef"	"70"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"%tip%"
-		"textAlignment"		"center"	[$WIN32]
-		"textAlignment"		"north-west"	[$X360]
+		"textAlignment"		"west"	[$WIN32]
 		"font"			"SpectatorKeyHints"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"DefaultVerySmall"
 		"wrap"			"1"
 	}
+	"TipBackground"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"TipBackground"
+		"xpos"			"14"
+		"ypos"			"r120"
+		"zpos"			"-2"
+		"wide"			"200"
+		"tall"			"108"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"		"replay/thumbnails/spectator/spectator_tips"
+		"scaleImage"		"1"
+	}
+
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
