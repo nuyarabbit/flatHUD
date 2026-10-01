@@ -7,6 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"c215"
 		"ypos"			"0"
+		"zpos"			"100"
 		"wide"			"f0"
 		"tall"			"480"
 		"MeterFG"		"White"
