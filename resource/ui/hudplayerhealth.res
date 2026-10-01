@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"0"
+		"xpos"			"-25"
 		"ypos"			"r120"
 		"zpos"			"2"
 		"wide"			"f0"
@@ -73,7 +73,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudFontGiantBold"
+		"font"			"HudFontBiggerBold"
 		"fgcolor"		"TanLight"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -89,7 +89,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFontBiggerBold"
 		"fgcolor"		"FlatHUDTransparentBlack"
 
 		"pin_to_sibling"	"PlayerStatusHealthValue"

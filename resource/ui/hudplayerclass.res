@@ -74,38 +74,38 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"80"
-		"xpos_minmode"	"-10"
-		"ypos"			"r77"
-		"ypos_minmode"		"r40"
-		"zpos"			"1"
-		"wide"			"160"
-		"tall"			"90"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/health_blue"
-		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/health_red"
-		"teambg_3"		"replay/thumbnails/health_blue"
+        "xpos"          "50"
+        "xpos_minmode"  "-10"
+        "ypos"          "r77"
+        "ypos_minmode"      "r40"
+        "zpos"          "1"
+        "wide"          "160"
+        "tall"          "90"
+        "visible"       "1"
+        "enabled"       "1"
+        "image"         "replay/thumbnails/health_blue"
+        "scaleImage"    "1"
+        "teambg_2"      "replay/thumbnails/health_red"
+        "teambg_3"      "replay/thumbnails/health_blue"
 	}
 
 	"classmodelpanelBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"80"
-		"xpos_minmode"	"-10"
-		"ypos"			"r77"
-		"ypos_minmode"		"r40"
-		"zpos"			"1"
-		"wide"			"160"
-		"tall"			"90"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/health_blue"
-		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/health_red"
-		"teambg_3"		"replay/thumbnails/health_blue"
+        "xpos"          "50"
+        "xpos_minmode"  "-10"
+        "ypos"          "r77"
+        "ypos_minmode"      "r40"
+        "zpos"          "1"
+        "wide"          "160"
+        "tall"          "90"
+        "visible"       "1"
+        "enabled"       "1"
+        "image"         "replay/thumbnails/health_blue"
+        "scaleImage"    "1"
+        "teambg_2"      "replay/thumbnails/health_red"
+        "teambg_3"      "replay/thumbnails/health_blue"
 	}
 
 	"PlayerStatusClassImageBGShadow"
@@ -124,22 +124,17 @@
 		"scaleImage"	"1"
 
 		"pin_to_sibling"	"PlayerStatusClassImageBG"
-		}
+	}
 
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"0"	[$WIN32]
-		"xpos_minmode"	"0"	[$WIN32]
-		"ypos"			"r200"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
-		"zpos"			"2"		
-		"wide"			"150"
-		"wide_minmode"	"52"
-		"tall"			"200"
-		"tall_minmode"	"102"
+        "ypos"          "r175"
+        "zpos"          "2"
+        "wide"          "125"
+        "tall"          "175"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
