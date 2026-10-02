@@ -57,7 +57,7 @@
 			"enabled"		"1"
 
 			"alpha"		"102"
-			"image"		"replay/thumbnails/ammo_shadow"
+			"image"		"replay/thumbnails/ammo_black"
 			"scaleImage"	"1"
 
 			"pin_to_sibling"	"NewBlueScoreBG"
@@ -110,7 +110,7 @@
 			"enabled"		"1"
 
 			"alpha"		"102"
-			"image"		"replay/thumbnails/health_shadow"
+			"image"		"replay/thumbnails/health_black"
 			"scaleImage"	"1"
 
 			"pin_to_sibling"	"NewRedScoreBG"
