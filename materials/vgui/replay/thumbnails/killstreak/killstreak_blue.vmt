@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/killstreak_mask"
+	"$basetexture"	"vgui/replay/thumbnails/killstreak/killstreak_mask"
 	"$color"		"{239 152 73}"
 	"$translucent" "1"
 	"$ignorez" "1"
