@@ -25,10 +25,10 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/killstreak_blue"
+		"image"			"replay/thumbnails/killstreak/killstreak_blue"
 		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/killstreak_red"
-		"teambg_3"		"replay/thumbnails/killstreak_blue"
+		"teambg_2"		"replay/thumbnails/killstreak/killstreak_red"
+		"teambg_3"		"replay/thumbnails/killstreak/killstreak_blue"
 	}
 
 	"ItemEffectMeterBGShadow"
@@ -43,7 +43,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"alpha"			"102"
-		"image"			"replay/thumbnails/killstreak_black"
+		"image"			"replay/thumbnails/killstreak/killstreak_black"
 		"scaleImage"	"1"
 
 		"pin_to_sibling"	"ItemEffectMeterBG"

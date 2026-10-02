@@ -123,7 +123,7 @@
 		"ypos"			"30"
 		"zpos"			"1"
 		"wide"			"78"
-		"tall"			"40"
+		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/timer/wiggle_panel"
@@ -216,7 +216,7 @@
 		"ypos"			"30"
 		"zpos"			"1"
 		"wide"			"78"
-		"tall"			"40"
+		"tall"			"78"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/timer/wiggle_panel"
@@ -232,7 +232,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
 		"xpos"			"16"
-		"ypos"			"41"
+		"ypos"			"42"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -243,7 +243,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"SpectatorKeyHints"
+		"font"			"HudFontSmallestBold"
 
 		if_match
 		{
@@ -258,11 +258,11 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
-		"xpos"			"16"
-		"ypos"			"30"
+		"xpos"			"26"
+		"ypos"			"25"
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"40"
+		"wide"			"60"
+		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/timer/wiggle_panel"
@@ -280,8 +280,8 @@
 		"xpos"			"16"
 		"ypos"			"41"
 		"zpos"			"5"
-		"wide"			"78"
-		"tall"			"19"
+		"wide"			"79"
+		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
@@ -289,7 +289,8 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"SpectatorKeyHints"
+		"fgcolor_override"	"TanLight"
+		"font"			"HudFontSmallestBold"
 
 		if_match
 		{
@@ -302,16 +303,17 @@
 	}	
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"16"
-		"ypos"			"30"
+		"xpos"			"30"
+		"ypos"			"25"
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"40"
+		"wide"			"52"
+		"tall"			"52"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/timer/wiggle_panel"
+		"alpha"			"102"
+		"image"			"replay/thumbnails/timer/wiggle_panel_servertime"
 		"scaleImage"		"1"
 		
 		if_match
