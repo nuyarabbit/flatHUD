@@ -126,7 +126,7 @@
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/meter_counter_black"
+		"image"			"replay/thumbnails/timer/wiggle_panel"
 		"scaleImage"		"1"
 
 		if_match
@@ -173,8 +173,8 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/generic_bar_white"
-		"scaleImage"		"1"	
+		"image"			"replay/thumbnails/timer/wiggle_panel_overtime"
+		"scaleImage"		"1"
 
 		if_match
 		{
@@ -219,8 +219,8 @@
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/meter_counter_black"
-		"scaleImage"		"1"	
+		"image"			"replay/thumbnails/timer/wiggle_panel"
+		"scaleImage"		"1"
 
 		if_match
 		{
@@ -265,8 +265,8 @@
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/meter_counter_black"
-		"scaleImage"		"1"	
+		"image"			"replay/thumbnails/timer/wiggle_panel"
+		"scaleImage"		"1"
 
 		if_match
 		{
@@ -311,7 +311,7 @@
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/meter_counter_black"
+		"image"			"replay/thumbnails/timer/wiggle_panel"
 		"scaleImage"		"1"
 		
 		if_match

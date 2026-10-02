@@ -181,9 +181,7 @@ Scheme
 
 		// scheme-specific colors
 		MainMenu.TextColor			"White"				[$WIN32]
-		MainMenu.TextColor			"200 200 200 255"	[$X360]
 		MainMenu.ArmedTextColor		"200 200 200 255"	[$WIN32]
-		MainMenu.ArmedTextColor		"White"				[$X360]
 		MainMenu.DepressedTextColor	"192 186 80 255"
 		MainMenu.MenuItemHeight		"16"	[$WIN32]
 		MainMenu.MenuItemHeight		"32"	[$X360]
@@ -196,12 +194,11 @@ Scheme
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
 		NewGame.SelectionColor		"Orange"	[$WIN32]
-		NewGame.SelectionColor		"0 0 0 255"	[$X360]
 		NewGame.DisabledColor		"128 128 128 196"
 
 		TFColors.ChatTextYellow		"251 235 202 255"
-		TFColors.ChatTextTeamBlue	"153 204 255 255"
-		TFColors.ChatTextTeamRed	"255 63 53 255"
+		TFColors.ChatTextTeamBlue	"72 125 205 255"
+		TFColors.ChatTextTeamRed	"201 58 58 255"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////

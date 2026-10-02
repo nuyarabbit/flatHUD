@@ -242,6 +242,17 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	"NewSwitchCamModeLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"NewSwitchCamModeLabel"
 		"xpos"			"-15"
 		"ypos"			"5"
 		"wide"			"125"

@@ -1,25 +1,5 @@
 #base "SourceSchemeBase.res"
 
-// This text just overrides the default font directories in common huds.
-// If your hud isnt here then you can add it exactly like the ones below and it should work.
-// Be sure you do this with the ClientScheme.res as well.
-
-#base "../custom/toonhud/resource/SourceScheme.res" // ToonHud
-#base "../custom/ahud-master/resource/SourceScheme.res" // ahud
-#base "../custom/budhud-master/resource/SourceScheme.res" // budhud
-#base "../custom/rayshud/resource/SourceScheme.res" // rayshud
-#base "../custom/flawhud/resource/SourceScheme.res" // flawhud
-#base "../custom/AntsHUD-master/resource/SourceScheme.res" // AntsHUD
-#base "../custom/kbnhud-master/resource/SourceScheme.res" // kbnhud
-#base "../custom/IsaacHUD/resource/SourceScheme.res" // IsaacHUD
-#base "../custom/hypnotize-hud-master/resource/SourceScheme.res" // hypnotize
-#base "../custom/broeselhud_blue-master/resource/SourceScheme.res" // broeselhud
-#base "../custom/mkhud-master/resource/SourceScheme.res" // mkhud
-#base "../custom/omphudedit-master/resource/SourceScheme.res" // omphudedit
-#base "../custom/flathud-blue/resource/SourceScheme.res" // flathud-blue
-#base "../custom/flathud-red/resource/SourceScheme.res" // flathud-red
-#base "../custom/ZeesHUD/resource/SourceScheme.res" // ZeesHUD
-
 Scheme
 {
 	// Color
