@@ -120,13 +120,13 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"16"
-		"ypos"			"30"
+		"ypos"			"25"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/timer/wiggle_panel"
+		"image"			"replay/thumbnails/timer/wiggle_panel_timer"
 		"scaleImage"		"1"
 
 		if_match
@@ -219,7 +219,7 @@
 		"tall"			"78"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/timer/wiggle_panel"
+		"image"			"replay/thumbnails/timer/wiggle_panel_timer"
 		"scaleImage"		"1"
 
 		if_match
@@ -232,7 +232,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
 		"xpos"			"16"
-		"ypos"			"42"
+		"ypos"			"46"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -265,7 +265,7 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/timer/wiggle_panel"
+		"image"			"replay/thumbnails/timer/wiggle_panel_timer"
 		"scaleImage"		"1"
 
 		if_match

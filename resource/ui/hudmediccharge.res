@@ -35,11 +35,45 @@
 		"pin_to_sibling"	"Background"
 	}
 
+	"BarBackground"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BarBackground"
+		"xpos"			"r159"
+		"ypos"			"r110"
+		"zpos"			"0"
+		"wide"			"150"
+		"tall"			"80"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/panels/wiggle_panel_blue"
+		"scaleImage"	"1"
+		"teambg_2"		"replay/thumbnails/panels/wiggle_panel_red"
+		"teambg_3"		"replay/thumbnails/panels/wiggle_panel_blue"
+	}
+	"BarBackgroundShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BarBackgroundShadow"
+		"xpos"			"-3"
+		"ypos"			"-3"
+		"zpos"			"-1"
+		"wide"			"150"
+		"tall"			"80"
+		"visible"		"1"
+		"enabled"		"1"
+		"alpha"			"102"
+		"image"			"replay/thumbnails/panels/wiggle_panel_black"
+		"scaleImage"	"1"
+
+		"pin_to_sibling"	"BarBackground"
+	}
+
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"-6"
+		"xpos"			"-2"
 		"xpos_minmode"			"11"
 		"ypos"			"-20"
 		"ypos_minmode"			"11"
@@ -90,13 +124,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"30"
-		"xpos_minmode"			"10"
-		"ypos"			"38"
-		"ypos_minmode"			"23"
+		"xpos"			"-8"
+		"ypos"			"-36"
 		"zpos"			"2"
-		"wide"			"86"
-		"tall"			"8"				
+		"wide"			"134"
+		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -104,6 +136,9 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"bgcolor_override"	"FlatHUDTransparentBlack"
+
+		"pin_to_sibling"	"BarBackground"
 	}		
 
 	"ChargeMeter1"

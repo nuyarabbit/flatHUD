@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/timer/wiggle_panel"
+	"$basetexture"	"vgui/replay/thumbnails/panels/wiggle_panel_mask"
 	"$color"		"{46 43 42}"
 	"$translucent" "1"
 	"$ignorez" "1"
