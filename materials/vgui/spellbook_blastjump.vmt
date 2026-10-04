@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$basetexture"	"vgui/replay/thumbnails/icons/spells/spell_jump"
-	"$color"		"{46 43 42}"
+	"$color"		"{235 226 202}"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"

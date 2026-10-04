@@ -25,7 +25,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"alpha"			"102"
-		"image"			"replay/thumbnails/point_black"
+		"image"			"replay/thumbnails/cp/point_black"
 		"scaleImage"	"1"
 	}
 	

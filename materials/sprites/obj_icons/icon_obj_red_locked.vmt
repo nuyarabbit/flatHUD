@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/point_red_locked"
+	"$basetexture"	"vgui/replay/thumbnails/cp/point_red_locked"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"

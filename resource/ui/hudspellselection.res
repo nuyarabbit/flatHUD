@@ -2,8 +2,8 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"			"65"
-		"ypos"			"380"
+		"xpos"			"100"
+		"ypos"			"360"
 	}
 			
 	"SpellBookBG"
