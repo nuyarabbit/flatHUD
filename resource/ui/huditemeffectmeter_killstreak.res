@@ -49,25 +49,6 @@
 		"pin_to_sibling"	"ItemEffectMeterBG"
 	}
 
-
-	"ItemEffectMeterBGNEW"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBGNEW"
-		"xpos"			"c10"
-		"ypos"			"r64"
-		"zpos"			"0"
-		"wide"			"23"
-		"tall"			"23"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/killstreaktest/killstreak_blue"
-		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/killstreaktest/killstreak_red"
-		"teambg_3"		"replay/thumbnails/killstreaktest/killstreak_blue"
-	}
-
-
 	"ItemEffectMeter"
 	{
 		"ControlName"			"ContinuousProgressBar"
