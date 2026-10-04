@@ -1,5 +1,5 @@
 "Resource/UI/HudMedicCharge.res"
-{	
+{
 	"Background"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -35,46 +35,31 @@
 		"pin_to_sibling"	"Background"
 	}
 
-	"BarBackground"
+	"MeterCover"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BarBackground"
-		"xpos"			"r159"
-		"ypos"			"r110"
-		"zpos"			"0"
-		"wide"			"150"
-		"tall"			"80"
+		"fieldName"		"MeterCover"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"90"
+		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/wiggle_panel_blue"
+		"image"			"replay/thumbnails/medic_meter_cover_blue"
 		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/panels/wiggle_panel_red"
-		"teambg_3"		"replay/thumbnails/panels/wiggle_panel_blue"
-	}
-	"BarBackgroundShadow"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BarBackgroundShadow"
-		"xpos"			"-3"
-		"ypos"			"-3"
-		"zpos"			"-1"
-		"wide"			"150"
-		"tall"			"80"
-		"visible"		"1"
-		"enabled"		"1"
-		"alpha"			"102"
-		"image"			"replay/thumbnails/panels/wiggle_panel_black"
-		"scaleImage"	"1"
+		"teambg_2"		"replay/thumbnails/medic_meter_cover_red"
+		"teambg_3"		"replay/thumbnails/medic_meter_cover_blue"
 
-		"pin_to_sibling"	"BarBackground"
+		"pin_to_sibling"	"Background"
 	}
 
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"-2"
-		"ypos"			"-20"
+		"xpos"			"2"
+		"ypos"			"-13"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"51"
@@ -84,11 +69,10 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
-		"labelText_minmode"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontBiggerBold"
+		"font"			"HudFontMediumBold"
 
 		"pin_to_sibling"	"Background"
 	}
@@ -97,8 +81,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"-1"
-		"ypos"			"-20"
+		"xpos"			"2"
+		"ypos"			"-13"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"51"
@@ -111,20 +95,20 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontBiggerBold"
+		"font"			"HudFontMediumBold"
 
 		"pin_to_sibling"	"Background"
 	}
-	
+
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"-8"
-		"ypos"			"-36"
+		"xpos"			"-13"
+		"ypos"			"-50"
 		"zpos"			"2"
-		"wide"			"134"
+		"wide"			"71"
 		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -135,18 +119,18 @@
 		"brighttext"	"0"
 		"bgcolor_override"	"FlatHUDTransparentBlack"
 
-		"pin_to_sibling"	"BarBackground"
-	}		
+		"pin_to_sibling"	"Background"
+	}
 
 	"ChargeMeter1"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
-		"xpos"			"-8"
-		"ypos"			"-36"
+		"xpos"			"-13"
+		"ypos"			"-50"
 		"zpos"			"2"
-		"wide"			"32"
+		"wide"			"17"
 		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -157,17 +141,17 @@
 		"brighttext"	"0"
 		"bgcolor_override"	"FlatHUDTransparentBlack"
 
-		"pin_to_sibling"	"BarBackground"
+		"pin_to_sibling"	"Background"
 	}
 
 	"ChargeMeter2"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
-		"xpos"			"-34"
+		"xpos"			"-19"
 		"zpos"			"2"
-		"wide"			"32"
+		"wide"			"16"
 		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -182,13 +166,13 @@
 	}
 
 	"ChargeMeter3"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
-		"xpos"			"-34"
+		"xpos"			"-18"
 		"zpos"			"2"
-		"wide"			"32"
+		"wide"			"16"
 		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -203,13 +187,13 @@
 	}
 
 	"ChargeMeter4"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
-		"xpos"			"-34"
+		"xpos"			"-18"
 		"zpos"			"2"
-		"wide"			"32"
+		"wide"			"17"
 		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -222,7 +206,7 @@
 
 		"pin_to_sibling"	"ChargeMeter3"
 	}
-	
+
 	"HealthClusterIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -234,15 +218,15 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/ico_health_cluster"
-		"scaleImage"	"1"	
-	}	
-	
+		"scaleImage"	"1"
+	}
+
 	"ResistIconAnchor"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ResistIconAnchor"
-		"xpos"			"r188"
-		"ypos"			"r90"
+		"xpos"			"r120"
+		"ypos"			"r70"
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"0"
@@ -255,14 +239,15 @@
 		"fieldName"		"ResistIcon"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"12"
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 
 		"pin_to_sibling"		"ResistIconAnchor"
 	}
-	
+
 }

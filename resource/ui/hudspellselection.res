@@ -17,7 +17,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/spellbook/spellbook_base"
+		"image"			"replay/thumbnails/panels/spellbook/spellbook_base"
 		"scaleImage"	"1"	
 	}
 	"SpellBookBGShadow"
@@ -31,10 +31,11 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"pin_to_sibling"	"SpellBookBG"
 		"alpha"			"102"
-		"image"			"replay/thumbnails/spellbook/spellbook_black"
+		"image"			"replay/thumbnails/panels/spellbook/spellbook_black"
 		"scaleImage"	"1"
+
+		"pin_to_sibling"	"SpellBookBG"
 	}
 	
 	"SpellIcon"

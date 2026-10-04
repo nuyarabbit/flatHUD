@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/panels/right_panel_mask"
+	"$color"		"{201 58 58}"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

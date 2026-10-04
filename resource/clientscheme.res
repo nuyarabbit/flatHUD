@@ -559,7 +559,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2 Secondary"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -567,7 +567,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2 Secondary"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -575,7 +575,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2 Secondary"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -584,7 +584,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2 Secondary"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -593,7 +593,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2 Secondary"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -602,7 +602,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2 Secondary"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
