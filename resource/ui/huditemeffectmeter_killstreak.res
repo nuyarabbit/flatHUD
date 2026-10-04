@@ -50,10 +50,10 @@
 	}
 
 
-	"ItemEffectMeterBG"
+	"ItemEffectMeterBGNEW"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
+		"fieldName"		"ItemEffectMeterBGNEW"
 		"xpos"			"c10"
 		"ypos"			"r64"
 		"zpos"			"0"
