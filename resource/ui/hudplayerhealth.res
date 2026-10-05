@@ -5,8 +5,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"-25"
-		"ypos"			"r120"
+		"xpos"			"-185"
+		"ypos"			"r101"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"120"
@@ -64,8 +64,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"126"
-		"ypos"			"71"
+		"xpos"			"250"
+		"ypos"			"48"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"35"
@@ -98,19 +98,19 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"-40"
-		"ypos"			"-3"	[$WIN32]
+		"xpos"			"-25"
+		"ypos"			"-28"
 		"zpos"			"10"
 		"wide"			"50"
-		"tall"			"18"
+		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"		"TanDarker"
+		"fgcolor"		"FlatHUDTransparentBlack"
 
-		"pin_to_sibling"	"PlayerStatusHealthImage"
+		"pin_to_sibling"	"PlayerStatusHealthValue"
 	}
 	"PlayerStatusBleedImage"
 	{
