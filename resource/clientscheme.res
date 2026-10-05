@@ -478,25 +478,25 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"22"
+				"name"		"Verdana"
+				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"22"	[$WIN32]
-				"tall"		"22"	[$X360]
+				"name"		"Verdana"
+				"tall"		"13"	[$WIN32]
+				"tall"		"20"	[$X360]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"22"
+				"name"		"Verdana"
+				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -504,33 +504,32 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"22"
+				"name"		"Verdana"
+				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"22"
+				"name"		"Verdana"
+				"tall"		"9"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"22"
+				"name"		"Verdana"
+				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"22"
+				"name"		"Arial"
+				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
@@ -541,16 +540,16 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"22"
+				"name"		"Tahoma"
+				"tall"		"12"
 				"weight"	"500"
 				"underline" "1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"22"
+				"name"		"Arial"
+				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
@@ -559,24 +558,24 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"20"
+				"name"		"Verdana"
+				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"20"
+				"name"		"Verdana"
+				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"20"
+				"name"		"Verdana"
+				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -584,26 +583,25 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"20"
+				"name"		"Verdana"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"20"
+				"name"		"Arial"
+				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 			}
@@ -614,24 +612,24 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"14"
+				"name"		"Verdana"
+				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"14"
+				"name"		"Verdana"
+				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"14"
+				"name"		"Verdana"
+				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -639,20 +637,19 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"14"
+				"name"		"Verdana"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -660,24 +657,24 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"26"
+				"name"		"Verdana"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"26"
+				"name"		"Verdana"
+				"tall"		"21"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"26"
+				"name"		"Verdana"
+				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
@@ -685,33 +682,32 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"26"
+				"name"		"Verdana"
+				"tall"		"28"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"26"
+				"name"		"Verdana"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"26"
+				"name"		"Verdana"
+				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"26"
+				"name"		"Arial"
+				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
@@ -721,8 +717,8 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"TF2 Secondary" [!$OSX]
-				"name"		"TF2 Secondary" [$OSX]
+				"name"		"Trebuchet MS" [!$OSX]
+				"name"		"Helvetica" [$OSX]
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" "1"
@@ -734,8 +730,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"14"
+				"name"		"Verdana"
+				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -745,39 +741,39 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"18"
+				"name"		"Verdana"
+				"tall"		"12"
 				"weight"	"700"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"18"	[$WIN32]
-				"tall"		"18"	[$X360]
+				"name"		"Verdana"
+				"tall"		"13"	[$WIN32]
+				"tall"		"23"	[$X360]
 				"weight"	"700"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"18"
+				"name"		"Verdana"
+				"tall"		"14"
 				"weight"	"700"
 				"yres"	"768 1023"
 			}
 			"4"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"18"
+				"name"		"Verdana"
+				"tall"		"20"
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"18"
+				"name"		"Verdana"
+				"tall"		"12"
 				"weight"	"700"
-				"yres"	"1200 10000"
+				"antialias"	"1"
 			}
 		}
 		"HudFontGiant"
@@ -823,11 +819,10 @@ Scheme
 			"5"
 			{
 				"name"		"TF2"
-				"tall"		"52"
+				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"yres"		"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -908,6 +903,15 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"24"
+				"weight"	"500"
+				"yres"		"1 1199"
+				"additive"	"0"
+				"antialias" "1"
+			}
+			"2" // Misyl: Proportional
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1225,7 +1229,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1392,13 +1396,12 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"CloseCaption_Normal"
+		"CloseCaption"
 		{
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
+				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1408,8 +1411,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
+				"tall"		"8"
 				"weight"	"500"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1420,8 +1422,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
+				"tall"		"8"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -1431,8 +1432,7 @@ Scheme
 			"1"
 			{
 				"name"		"Tahoma"
-				"tall"		"24"
-				"tall_hidef"	"32"
+				"tall"		"8"
 				"weight"	"900"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1580,8 +1580,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"8"
+				"name"		"Verdana"
+				"tall"		"6"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1591,10 +1591,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"name"		"Verdana"
+				"tall"		"8"
 				"tall_hidef"	"10"
-				"tall_lodef"	"10"
+				"tall_lodef"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1607,7 +1607,7 @@ Scheme
 				"name"		"TF2 Secondary"
 				"tall"		"10"
 				"tall_hidef"	"12"
-				"tall_lodef"	"12"
+				"tall_lodef"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1643,8 +1643,8 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"20"
-				"tall_hidef"	"20"
-				"tall_lodef"	"20"
+				"tall_hidef"	"24"
+				"tall_lodef"	"24"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1791,7 +1791,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"12"
+				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2019,13 +2019,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"9"
-				"tall_hidef"	"9"
-				"tall_lodef"	"9"
+				"name"		"Verdana"
+				"tall"		"8"
+				"tall_hidef"	"10"
+				"tall_lodef"	"12"
 				"weight"	"0"
 				"additive"	"1"
-				"TextColor"	"ProgressOffWhite"
 				"antialias" 	"1"
 			}
 		}		
@@ -2033,8 +2032,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"14"
+				"name"		"Verdana"
+				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
 				"weight"	"400"
@@ -2047,9 +2046,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"12"  [!$OSX]
-				"tall"		"12"  [$OSX]
+				"name"		"Verdana"
+				"tall"		"11"  [!$OSX]
+				"tall"		"9"  [$OSX]
 				"weight"	"800"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2189,8 +2188,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"18"
+				"name"		"Trebuchet MS"
+				"tall"		"14"
 				"weight"	"900"
 				"antialias" "1"
 			}
@@ -2199,8 +2198,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"14"
+				"name"		"Verdana"
+				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2210,8 +2209,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"12"
+				"name"		"Verdana"
+				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2221,8 +2220,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"name"		"Verdana"
+				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2309,7 +2308,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"9"
+				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2319,8 +2318,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"9"
+				"name"		"Verdana"
+				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
 			}
@@ -2330,7 +2329,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"9"
+				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2352,7 +2351,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"11"
+				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2386,8 +2385,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"9"
+				"name"		"Verdana"
+				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -2397,8 +2396,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"8"
+				"name"		"Verdana"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -2408,8 +2408,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"12"
+				"name"		"Verdana"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"antialias" 	"1"
 			}
@@ -2418,8 +2419,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"12"
+				"name"		"Verdana"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"blur"		"3"
 				"additive"	"1"
@@ -2430,8 +2432,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"name"		"Verdana"
+				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
 			}
@@ -2655,7 +2657,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2666,8 +2668,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"name"		"Verdana"
+				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2677,8 +2679,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"name"		"Verdana"
+				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
 			}
@@ -2688,8 +2690,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"name"		"Verdana"
+				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
 				"additive"	"0"
@@ -2700,8 +2702,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"name"		"Trebuchet MS"
+				"tall"		"9"
 				"weight"	"400"
 				"antialias" "1"
 				"additive"	"0"
@@ -3294,13 +3296,14 @@ Scheme
 				
 		MainMenuSubButtonBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 1 0"
+			"proportional_scalar" "0.667"
 			Left
 			{
 				"1"
 				{
 					"color" "TanDarker"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -3309,7 +3312,7 @@ Scheme
 				"1"
 				{
 					"color" "TanDarker"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 		}
@@ -3350,7 +3353,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"			"replay/thumbnails/square_shadow"
+			"image"					"../hud/tournament_panel_brown"
+			//"image"					"../hud/color_panel_browner"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
@@ -3361,7 +3365,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"			"replay/thumbnails/square_black"
+			"image"					"../hud/color_panel_brown_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -3372,7 +3376,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"			"replay/thumbnails/square_shadow"
+			"image"					"../hud/color_panel_brown"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -3383,7 +3387,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"			"replay/thumbnails/square_red"
+			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -3394,7 +3398,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"			"replay/thumbnails/square_red"
+			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -3405,7 +3409,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"			"replay/thumbnails/square_red"
+			"image"					"../hud/color_panel_red"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -3416,7 +3420,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"			"replay/thumbnails/square_red"
+			"image"					"../hud/color_panel_red_more_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -3427,7 +3431,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"			"replay/thumbnails/square_blue"
+			"image"					"../hud/color_panel_blu"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -3438,7 +3442,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"			"replay/thumbnails/square_blue"
+			"image"					"../hud/color_panel_blu_more_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -3449,7 +3453,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"			"replay/thumbnails/square_blue"
+			"image"					"../hud/color_panel_blu_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
@@ -5845,5 +5849,13 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
+		"10"		"resource/linux_fonts/DejaVuSans.ttf"
+		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"13"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"14"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }
