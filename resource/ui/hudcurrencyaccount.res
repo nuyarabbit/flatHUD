@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CurrencyBG"
-		"xpos"			"50"
+		"xpos"			"165"
 		"ypos"			"r65"
 		"zpos"			"1"
 		"wide"			"58"

@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$basetexture"	"vgui/replay/thumbnails/flag_noarrow_mask"
-	"$color"		"{117 107 94}"
+	"$color"		"{46 43 42}"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"

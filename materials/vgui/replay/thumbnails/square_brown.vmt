@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/bigger_meter_mask"
-	"$color"		"{72 125 205}"
+	"$basetexture"	"vgui/replay/thumbnails/square_mask"
+	"$color"		"{46 43 42}"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"

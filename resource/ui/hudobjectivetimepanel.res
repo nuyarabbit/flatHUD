@@ -35,6 +35,11 @@
 		"image"			"replay/thumbnails/square_black"
 		"scaleImage"		"1"
 
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"10"
+		"draw_corner_height" 	"10"
+
 		if_match
 		{
 			"visible"	"0"
@@ -79,6 +84,11 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/square_tandarker"
 		"scaleImage"		"1"
+
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"
 
 		if_match
 		{

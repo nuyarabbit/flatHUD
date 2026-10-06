@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$basetexture"	"vgui/replay/thumbnails/cp/point_mask"
-	"$color"		"{153 153 153}"
+	"$color"		"{46 43 42}"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"
