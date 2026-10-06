@@ -99,7 +99,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/meter_counter_neutral"
+		"alpha"			"102"
+		"image"			"replay/thumbnails/meter_counter_black"
 		"scaleImage"		"1"
 
 		"pin_to_sibling"	"DisguiseStatusBG"
