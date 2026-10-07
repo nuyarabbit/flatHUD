@@ -5,7 +5,7 @@
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
 		"ypos"			"-2"
-		"zpos"			"2"		
+		"zpos"			"10"
 		"wide"			"300"
 		"tall"			"25"
 		"visible"		"1"
@@ -55,13 +55,69 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"o3.833"
-		"tall"			"35"
+		"wide"			"o3.203"
+		"tall"			"30"
 
 		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"
 			
-		"image"					"../hud/comp_round_timer"
+		"image"					"replay/thumbnails/hud/match_hud_brown"
+		"scaleimage"			"1"
+	}
+	"BlueIndicator"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlueIndicator"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"6"
+		"wide"			"o3.203"
+		"tall"			"30"
+
+		"backgroundtype"		"2"
+		"proportionaltoparent"	"1"
+
+		"pin_to_sibling"		"Background"
+
+		"image"					"replay/thumbnails/hud/match_hud_blue"
+		"scaleimage"			"1"
+	}
+	"RedIndicator"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RedIndicator"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"6"
+		"wide"			"o3.203"
+		"tall"			"30"
+
+		"backgroundtype"		"2"
+		"proportionaltoparent"	"1"
+
+		"pin_to_sibling"		"Background"
+
+		"image"					"replay/thumbnails/hud/match_hud_red"
+		"scaleimage"			"1"
+	}
+
+	"BackgroundShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundShadow"
+		"xpos"			"-3"
+		"ypos"			"-3"
+		"zpos"			"5"
+		"wide"			"o3.203"
+		"tall"			"30"
+
+		"backgroundtype"		"2"
+		"proportionaltoparent"	"1"
+
+		"pin_to_sibling"		"Background"
+
+		"alpha"					"191.25"
+		"image"					"replay/thumbnails/hud/match_hud_brown"
 		"scaleimage"			"1"
 	}
 }

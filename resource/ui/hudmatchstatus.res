@@ -207,19 +207,81 @@
 		"enabled"		"1"
 	}	
 
-	"BGFrame"
+	"BGFrameRed"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"			"BGFrame"
-		"xpos"				"cs-0.5"
+		"fieldName"			"BGFrameRed"
+		"xpos"				"c41"
 		"ypos"				"-5"
 		"zpos"				"0"
-		"wide"				"365"
+		"wide"				"142"
 		"tall"				"28"
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
+		"border"			"TFFatLineBorderRedBGOpaque"
+
+		if_match
+		{
+			"visible"		"1"
+		}
+	}
+	"BGFrameRedShadow"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"BGFrameRedShadow"
+		"xpos"				"-3"
+		"ypos"				"-3"
+		"zpos"				"-2"
+		"wide"				"142"
+		"tall"				"28"
+		"visible"			"0"
+
+		"proportionaltoaparent"	"1"
+		"alpha"				"191.25"
 		"border"			"TFFatLineBorder"
+		"pin_to_sibling"	"BGFrameRed"
+
+		if_match
+		{
+			"visible"		"1"
+		}
+	}
+
+	"BGFrameBlue"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"BGFrameBlue"
+		"xpos"				"c-183"
+		"ypos"				"-5"
+		"zpos"				"0"
+		"wide"				"142"
+		"tall"				"28"
+		"visible"			"0"
+
+		"proportionaltoaparent"	"1"
+		"border"			"TFFatLineBorderBlueBGOpaque"
+
+		if_match
+		{
+			"visible"		"1"
+		}
+	}
+	"BGFrameBlueShadow"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"BGFrameBluehadow"
+		"xpos"				"-3"
+		"ypos"				"-3"
+		"zpos"				"-2"
+		"wide"				"142"
+		"tall"				"28"
+		"visible"			"0"
+
+		"proportionaltoaparent"	"1"
+		"alpha"				"191.25"
+		"border"			"TFFatLineBorder"
+		"pin_to_sibling"	"BGFrameBlue"
 
 		if_match
 		{
@@ -279,7 +341,6 @@
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
 		"ypos"				"0"	[$WIN32]
-		"ypos_minmode"		"-14"	[$WIN32]
 		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"150"
@@ -297,7 +358,6 @@
 		{
 			"xpos"					"cs-0.5"
 			"wide"					"130"
-			"ypos_minmode"			"0"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -312,15 +372,11 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmallBold"
-			"font_minmode"	"HudFontSmallBold"
 			"fgcolor"		"TanLight"
 			"xpos"			"45"
-			"xpos_minmode"	"39"
 			"ypos"			"11"
-			"ypos_minmode"	"6"
 			"zpos"			"3"
 			"wide"			"45"
-			"wide_minmode"	"30"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
@@ -333,10 +389,8 @@
 
 				"xpos"			"cs-0.5"
 				"ypos"			"12"
-				"ypos_minmode"	"12"
 				"tall"			"10"
 				"font"			"HudFontSmallBold"
-				"font_minmode"	"HudFontSmallBold"
 			}
 		}	
 	}
