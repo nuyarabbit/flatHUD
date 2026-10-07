@@ -57,7 +57,7 @@
 			"enabled"		"1"
 
 			"alpha"		"102"
-			"image"		"replay/thumbnails/ammo_black"
+			"image"		"replay/thumbnails/ammo_brown"
 			"scaleImage"	"1"
 
 			"pin_to_sibling"	"NewBlueScoreBG"
@@ -110,7 +110,7 @@
 			"enabled"		"1"
 
 			"alpha"		"102"
-			"image"		"replay/thumbnails/health_black"
+			"image"		"replay/thumbnails/health_brown"
 			"scaleImage"	"1"
 
 			"pin_to_sibling"	"NewRedScoreBG"
@@ -160,8 +160,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"alpha"		"102"
-			"image"		"replay/thumbnails/icons/team_logo_blue_shadow"
+			"alpha"		"191.25"
+			"image"		"replay/thumbnails/icons/team_logo_blue_brown"
 			"scaleImage"	"1"
 
 			"pin_to_sibling"	"BlueTeamLogo"
@@ -277,7 +277,7 @@
 			"enabled"		"1"
 
 			"alpha"		"102"
-			"image"		"replay/thumbnails/icons/team_logo_red_shadow"
+			"image"		"replay/thumbnails/icons/team_logo_red_brown"
 			"scaleImage"	"1"
 
 			"pin_to_sibling"	"RedTeamLogo"
@@ -354,7 +354,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"WinPanelBGBorder"
 		"xpos"			"cs-0.5"
-		"ypos"			"100"
+		"ypos"			"70"
 		"zpos"			"0"
 		"wide"			"p0.94"
 		"tall"			"40"
