@@ -13,13 +13,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/square_shadow"
+		"alpha"			"191.25"
+		"image"			"replay/thumbnails/square_top_brown"
 
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"src_corner_height"		"90"				// pixels inside the image
+		"src_corner_width"		"90"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"
 	}
 	
 	"WaveCountLabel"
@@ -95,11 +95,10 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/square_blue"
 
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"src_corner_height"		"90"				// pixels inside the image
+		"src_corner_width"		"90"
+		"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"4"
 	}
 	
 	"ProgressBarBG"
@@ -115,10 +114,9 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/square_white"
 
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"src_corner_height"		"90"				// pixels inside the image
+		"src_corner_width"		"90"
+		"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"4"
 	}
 }

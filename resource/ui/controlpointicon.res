@@ -24,8 +24,8 @@
 		"tall"		"33"
 		"visible"		"1"
 		"enabled"		"1"
-		"alpha"			"102"
-		"image"			"replay/thumbnails/cp/point_black"
+		"alpha"			"191.25"
+		"image"			"replay/thumbnails/cp/point_brown"
 		"scaleImage"	"1"
 	}
 	

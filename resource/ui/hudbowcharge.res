@@ -15,7 +15,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"bgcolor_override" "FlatHUDTransparentBlack"
+		"bgcolor_override" "TanDarkerTransparent"
 		"fgcolor_override" "Tanlight"
 		"dulltext"		"0"
 		"brighttext"	"0"

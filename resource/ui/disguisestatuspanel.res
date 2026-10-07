@@ -4,10 +4,10 @@
 	{
 		"ControlName"		"CEmbeddedItemModelPanel"
 		"fieldName"		"itemmodelpanel"
-	
+
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"100"
 		"autoResize"		"0"
@@ -41,10 +41,16 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/meter_counter_blue"
+		"image"			"replay/thumbnails/square_blue"
 		"scaleImage"		"1"
-		"teambg_2"		"replay/thumbnails/meter_counter_red"
-		"teambg_3"		"replay/thumbnails/meter_counter_blue"
+		"teambg_2"		"replay/thumbnails/square_red"
+		"teambg_3"		"replay/thumbnails/square_blue"
+
+		"src_corner_height"		"90"				// pixels inside the image
+		"src_corner_width"		"90"
+
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
 	}
 
 	"DisguiseStatusBGIcon"
@@ -54,14 +60,20 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"200"
+		"wide"			"120"
 		"tall"	 		"120"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/disguise_icon"
+		"image"			"replay/thumbnails/square_right_brown"
 		"scaleImage"		"1"
+
+		"src_corner_height"		"90"				// pixels inside the image
+		"src_corner_width"		"90"
+
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
 
 		"pin_to_sibling"	"DisguiseStatusBG"
 	}
@@ -99,15 +111,15 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"alpha"			"102"
-		"image"			"replay/thumbnails/meter_counter_black"
+		"alpha"			"191.25"
+		"image"			"replay/thumbnails/square_brown"
 		"scaleImage"		"1"
 
 		"pin_to_sibling"	"DisguiseStatusBG"
 	}
 
 	"DisguiseNameLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"HudFontSmallBold"
@@ -128,9 +140,9 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-	
+
 	"WeaponNameLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
 		"font"			"HUDFontSmall"
@@ -151,7 +163,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-	
+
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
@@ -163,12 +175,12 @@
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
-	}	
-	
+	}
+
 }

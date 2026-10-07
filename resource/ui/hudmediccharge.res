@@ -29,7 +29,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"alpha"			"102"
-		"image"			"replay/thumbnails/ammo_black"
+		"image"			"replay/thumbnails/ammo_brown"
 		"scaleImage"	"1"
 
 		"pin_to_sibling"	"Background"

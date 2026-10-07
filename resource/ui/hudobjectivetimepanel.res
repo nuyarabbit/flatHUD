@@ -14,6 +14,12 @@
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
 
+		"src_corner_height"		"90"				// pixels inside the image
+		"src_corner_width"		"90"
+
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
+
 		if_match
 		{
 			"visible"	"0"
@@ -22,7 +28,7 @@
 
 	"TimePanelBGShadow"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBGShadow"
 		"xpos"			"-3"
 		"ypos"			"-3"
@@ -31,14 +37,15 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"alpha"			"102"
-		"image"			"replay/thumbnails/square_black"
+		"alpha"			"191.25"
+		"image"			"replay/thumbnails/square_brown"
 		"scaleImage"		"1"
 
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		"draw_corner_width"		"10"
-		"draw_corner_height" 	"10"
+		"src_corner_height"		"90"				// pixels inside the image
+		"src_corner_width"		"90"
+
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
 
 		if_match
 		{
@@ -62,7 +69,7 @@
 		"scaleImage"			"1"
 		"image"				"../hud/objectives_timepanel_progressbar"
 		"color_active"			"TimerProgress.Active"
-		"color_inactive"		"FlatHUDBlack"
+		"color_inactive"		"TanDarkerTransparent"
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
 
@@ -82,7 +89,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/square_tandarker"
+		"image"			"replay/thumbnails/square_right_brown"
 		"scaleImage"		"1"
 
 		"src_corner_height"		"23"				// pixels inside the image

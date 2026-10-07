@@ -118,12 +118,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
+				"font"			"HudFontSmallest"
 				"xpos"			"5"
 				"ypos"			"24"
 				"zpos"			"5"
 				"wide"			"50"
-				"tall"			"8"
+				"tall"			"11"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -134,10 +134,10 @@
 				if_mvm
 				{
 					"xpos"				"4"
-					"ypos"				"25"
+					"ypos"				"23"
 					"wide"			"48"
 					"textAlignment"		"center"
-					"font"				"DefaultSmall"
+					"font"			"HudFontSmallest"
 				}
 
 				if_competitive
@@ -147,7 +147,7 @@
 					"wide"				"p0.9"
 					"tall"				"p0.22"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"			"HudFontSmallest"
 					"proportionaltoparent" "1"
 				}
 
@@ -157,7 +157,7 @@
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"			"HudFontSmallest"
 				}
 			}
 			
@@ -278,13 +278,12 @@
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/square_black"
+				"image"			"replay/thumbnails/square_brown"
 
-				"src_corner_height"	"22"				// pixels inside the image
-				"src_corner_width"	"22"
-			
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
+			"src_corner_height"		"90"				// pixels inside the image
+			"src_corner_width"		"90"
+			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"2"
 				
 				if_mvm
 				{
@@ -447,11 +446,10 @@
 		"image"			"../HUD/tournament_panel_brown"
 		"proportionaltoparent"	"1"
 
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"src_corner_height"		"90"				// pixels inside the image
+		"src_corner_width"		"90"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"
 		
 		if_mvm
 		{

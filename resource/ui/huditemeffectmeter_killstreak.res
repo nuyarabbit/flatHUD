@@ -42,8 +42,8 @@
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"alpha"			"102"
-		"image"			"replay/thumbnails/killstreak/killstreak_black"
+		"alpha"			"191.25"
+		"image"			"replay/thumbnails/killstreak/killstreak_brown"
 		"scaleImage"	"1"
 
 		"pin_to_sibling"	"ItemEffectMeterBG"
@@ -108,7 +108,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"				"FlatHUDTransparentBlack"
+		"fgcolor"				"TanDarker"
 		"font"					"ChalkboardTitleMedium"
 
 		"pin_to_sibling"		"ItemEffectMeterCount"

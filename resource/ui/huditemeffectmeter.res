@@ -75,7 +75,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"bgcolor_override" "FlatHUDTransparentBlack"
+		"bgcolor_override" "TanDarkerTransparent"
 		"fgcolor_override" "Tanlight"
 		"xpos"					"-10"
 		"ypos"					"-0"

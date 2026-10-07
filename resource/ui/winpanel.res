@@ -188,7 +188,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
 			"font"			"HudFontGiantBold"
-			"fgcolor"		"FlatHUDTransparentBlack"
+			"fgcolor"		"TanDarker"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"-3"
@@ -304,7 +304,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
 			"font"			"HudFontGiantBold"
-			"fgcolor"		"FlatHUDTransparentBlack"
+			"fgcolor"		"TanDarker"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"-3"
@@ -354,7 +354,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"WinPanelBGBorder"
 		"xpos"			"cs-0.5"
-		"ypos"			"70"
+		"ypos"			"100"
 		"zpos"			"0"
 		"wide"			"p0.94"
 		"tall"			"40"
@@ -388,7 +388,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
 		"font"			"HudFontMediumBold"
-		"fgcolor"		"FlatHUDTransparentBlack"
+		"fgcolor"		"TanDarker"
 		"xpos"			"-3"
 		"ypos"			"-3"
 		"zpos"			"1"
@@ -429,7 +429,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabelDropshadow"
 		"font"			"HudFontMediumBold"
-		"fgcolor"		"FlatHUDTransparentBlack"
+		"fgcolor"		"TanDarker"
 		"xpos"			"-3"
 		"ypos"			"-3"
 		"zpos"			"1"
@@ -486,7 +486,7 @@
 	}
 	"ShadedBar"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"15"
 		"ypos"			"116"
@@ -498,8 +498,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"46 43 42 255"
-		"PaintBackgroundType"	"0"
+		"image"			"replay/thumbnails/square_top_brown"
+		"scaleImage"	"1"
+
+		"src_corner_height"		"90"				// pixels inside the image
+		"src_corner_width"		"90"
+
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
 	}
 	"TopPlayersLabel"
 	{	
