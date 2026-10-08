@@ -265,8 +265,8 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
+			"xpos"					"1"
+			"ypos"					"36"
 			"wide"					"p1"
 			"font"					"HudFontSmallestBold"
 		}
@@ -287,7 +287,8 @@
 
 		if_match
 		{
-			"wide"	"0"
+		"xpos"			"36"
+		"ypos"			"15"
 		}
 	}
 	"ServerTimeLimitLabel"

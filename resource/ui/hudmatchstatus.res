@@ -388,8 +388,8 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"12"
-				"tall"			"10"
+				"ypos"			"15"
+				"tall"			"11"
 				"font"			"HudFontSmallBold"
 			}
 		}	
