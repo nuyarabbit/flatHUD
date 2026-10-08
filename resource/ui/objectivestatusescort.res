@@ -32,7 +32,7 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/payload/cart_track"
+		"image"			"replay/thumbnails/pl/cart_track"
 		"scaleImage"	"1"
 		
 		"if_multiple_trains"
@@ -85,22 +85,22 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			"replay/thumbnails/payload/cart_home_blue"
+		"image"			"replay/thumbnails/pl/cart_home_blue"
 		"scaleImage"	"1"	
 		
 		"if_team_red"
 		{
-			"image"			"replay/thumbnails/payload/cart_home_red"
+			"image"			"replay/thumbnails/pl/cart_home_red"
 		}
 		
 		"if_single_with_hills_blue"
 		{
-			"image"			"replay/thumbnails/payload/cart_home_blue"
+			"image"			"replay/thumbnails/pl/cart_home_blue"
 		}		
 		
 		"if_single_with_hills_red"
 		{
-			"image"			"replay/thumbnails/payload/cart_home_red"
+			"image"			"replay/thumbnails/pl/cart_home_red"
 		}		
 		
 		"if_multiple_trains"
@@ -124,12 +124,12 @@
 		
 		"if_multiple_trains_red"
 		{
-			"image"			"replay/thumbnails/payload/cart_home_red"
+			"image"			"replay/thumbnails/pl/cart_home_red"
 		}
 		
 		"if_multiple_trains_blue"
 		{
-			"image"			"replay/thumbnails/payload/cart_home_blue"
+			"image"			"replay/thumbnails/pl/cart_home_blue"
 		}
 	}
 	
@@ -229,17 +229,17 @@
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/payload/cart_neutral"
+			"image"			"replay/thumbnails/pl/cart_neutral"
 			"scaleImage"	"1"
 			
 			"if_team_blue"
 			{
-				"image"			"replay/thumbnails/payload/cart_blue"
+				"image"			"replay/thumbnails/pl/cart_blue"
 			}		
 			
 			"if_team_red"
 			{
-				"image"			"replay/thumbnails/payload/cart_red"
+				"image"			"replay/thumbnails/pl/cart_red"
 			}
 			
 			"if_multiple_trains"
@@ -266,17 +266,17 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"replay/thumbnails/payload/cart_bottom_neutral"
+			"image"			"replay/thumbnails/pl/cart_bottom_neutral"
 			"scaleImage"	"1"	
 			
 			"if_team_blue"
 			{
-				"image"			"replay/thumbnails/payload/cart_bottom_blue"
+				"image"			"replay/thumbnails/pl/cart_bottom_blue"
 			}			
 			
 			"if_team_red"
 			{
-				"image"			"replay/thumbnails/payload/cart_bottom_red"
+				"image"			"replay/thumbnails/pl/cart_bottom_red"
 			}
 			
 			"if_multiple_trains"
@@ -318,14 +318,10 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"	
 			"xpos"			"35"
-			"xpos_minmode"		"23"
 			"ypos"			"82"
-			"ypos_minmode"		"53"
 			"zpos"			"2"
 			"wide"			"10"
-			"wide_minmode"		"7"
 			"tall"			"10"
-			"tall_minmode"		"7"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -358,14 +354,10 @@
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"CapPlayerImage"
 			"xpos"			"25"
-			"xpos_minmode"		"20"
 			"ypos"			"88"
-			"ypos_minmode"		"52"
 			"zpos"			"12"
 			"wide"			"6"
-			"wide_minmode"		"4"
 			"tall"			"12"
-			"tall_minmode"		"8"
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"capture_icon_white"
@@ -394,7 +386,6 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
 			"font"			"HudFontSmallestBold"
-			"font_minmode"		"ItemFontAttribSmall"
 			"xpos"			"25"
 			"ypos"			"90"
 			"zpos"			"12"
@@ -429,14 +420,10 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Blocked"	
 			"xpos"			"35"
-			"xpos_minmode"		"23"
 			"ypos"			"82"
-			"ypos_minmode"		"53"
 			"zpos"			"12"
 			"wide"			"10"
-			"wide_minmode"		"7"
 			"tall"			"10"
-			"tall_minmode"		"7"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -469,14 +456,10 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"			"EscortTeardrop"
 			"xpos"				"13"
-			"xpos_minmode"			"9"
 			"ypos"				"13"
-			"ypos_minmode"			"8"			
 			"zpos"				"20"
 			"wide"				"100"
-			"wide_minmode"			"65"			
 			"tall"				"65"
-			"tall_minmode"			"42"			
 			"visible"			"0"
 			"enabled"			"1"
 			
@@ -496,9 +479,7 @@
 				"ypos"				"0"
 				"zpos"				"0"
 				"wide"				"54"
-				"wide_minmode"			"35"				
 				"tall"				"65"
-				"tall_minmode"			"42"
 				"visible"			"1"
 				"enabled"			"1"
 				"scaleImage"		"1"
@@ -519,15 +500,11 @@
 				"ControlName"		"Label"
 				"fieldName"			"ProgressText"
 				"font"				"DefaultSmall"
-				"font_minmode"			"DefaultVerySmall"
 				"xpos"				"0"
 				"ypos"				"8"
-				"ypos_minmode"			"3"
 				"zpos"				"23"
 				"wide"				"54"
-				"wide_minmode"			"35"
 				"tall"				"40"
-				"tall_minmode"			"28"
 				"autoResize"		"0"
 				"pinCorner"			"0"
 				"visible"			"0"
@@ -553,12 +530,9 @@
 				"fieldName"			"Blocked"
 				"xpos"				"2"
 				"ypos"				"3"
-				"ypos_minmode"			"2"	
 				"zpos"				"1"
 				"wide"				"50"
-				"wide_minmode"			"31"
 				"tall"				"50"
-				"tall_minmode"			"31"
 				"visible"			"1"
 				"enabled"			"1"
 				"scaleImage"		"1"
@@ -579,14 +553,10 @@
 				"ControlName"	"ImagePanel"
 				"fieldName"		"Capping"	
 				"xpos"			"12"
-				"xpos_minmode"		"8"
 				"ypos"			"13"
-				"ypos_minmode"		"8"
 				"zpos"			"1"
 				"wide"			"30"
-				"wide_minmode"		"20"
 				"tall"			"30"
-				"tall_minmode"		"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"

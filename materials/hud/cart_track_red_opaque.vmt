@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/square_mask"
+	"$basetexture"	"vgui/replay/thumbnails/pl/true_square_mask"
 	"$color"		"{201 58 58}"
 	"$translucent" "1"
 	"$ignorez" "1"

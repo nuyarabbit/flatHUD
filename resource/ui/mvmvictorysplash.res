@@ -36,7 +36,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"alpha"			"191.25"
-			"image"			"replay/thumbnails/health_black"
+			"image"			"replay/thumbnails/health_brown"
 
 			"pin_to_sibling" "SplashBackground"
 		}

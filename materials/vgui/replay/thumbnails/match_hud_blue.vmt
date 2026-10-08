@@ -1,6 +1,7 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/payload/cart_bottom_neutral"
+	"$basetexture"	"vgui/replay/thumbnails/match_hud_left_mask"
+	"$color"		"{72 125 205}"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"

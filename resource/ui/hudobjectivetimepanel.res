@@ -127,9 +127,9 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"21"
+			"ypos"					"36"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
+			"font"					"SpectatorKeyHints"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -148,7 +148,9 @@
 
 		if_match
 		{
-			"wide"	"0"
+			"xpos"			"36"
+			"ypos"			"15"
+			"zpos"			"10"
 		}
 	}
 	"OvertimeLabel"
@@ -174,9 +176,10 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"21"
+			"ypos"					"35"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
+			"tall"					"20"
+			"font"					"HudFontSmallBold"
 		}
 	}			
 	"OvertimeBG"
@@ -195,7 +198,9 @@
 
 		if_match
 		{
-			"wide"	"0"
+			"xpos"			"16"
+			"ypos"			"-4"
+			"zpos"			"12"
 		}
 	}
 	"SuddenDeathLabel"
@@ -265,7 +270,7 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"1"
+			"xpos"					"0"
 			"ypos"					"36"
 			"wide"					"p1"
 			"font"					"HudFontSmallestBold"
@@ -287,8 +292,8 @@
 
 		if_match
 		{
-		"xpos"			"36"
-		"ypos"			"15"
+			"xpos"			"36"
+			"ypos"			"15"
 		}
 	}
 	"ServerTimeLimitLabel"
@@ -314,7 +319,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
-			"ypos"					"21"
+			"ypos"					"31"
 			"wide"					"p1"
 			"font"					"HudFontSmallestBold"
 		}
@@ -330,13 +335,14 @@
 		"tall"			"52"
 		"visible"		"0"
 		"enabled"		"1"
-		"alpha"			"102"
-		"image"			"replay/thumbnails/timer/wiggle_panel_servertime"
+		"alpha"			"191.25"
+		"image"			"replay/thumbnails/timer/wiggle_panel_timer"
 		"scaleImage"		"1"
 		
 		if_match
 		{
-			"wide"	"0"
+			"xpos"			"39"
+			"ypos"			"15"
 		}	
 	}
 }

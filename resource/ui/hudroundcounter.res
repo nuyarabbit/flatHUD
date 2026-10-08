@@ -58,10 +58,9 @@
 		"wide"			"o3.203"
 		"tall"			"30"
 
-		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"
 			
-		"image"					"replay/thumbnails/hud/match_hud_brown"
+		"image"					"replay/thumbnails/match_hud_brown"
 		"scaleimage"			"1"
 	}
 	"BlueIndicator"
@@ -74,12 +73,11 @@
 		"wide"			"o3.203"
 		"tall"			"30"
 
-		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"
 
 		"pin_to_sibling"		"Background"
 
-		"image"					"replay/thumbnails/hud/match_hud_blue"
+		"image"					"replay/thumbnails/match_hud_blue"
 		"scaleimage"			"1"
 	}
 	"RedIndicator"
@@ -92,12 +90,11 @@
 		"wide"			"o3.203"
 		"tall"			"30"
 
-		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"
 
 		"pin_to_sibling"		"Background"
 
-		"image"					"replay/thumbnails/hud/match_hud_red"
+		"image"					"replay/thumbnails/match_hud_red"
 		"scaleimage"			"1"
 	}
 
@@ -111,13 +108,12 @@
 		"wide"			"o3.203"
 		"tall"			"30"
 
-		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"
 
 		"pin_to_sibling"		"Background"
 
 		"alpha"					"191.25"
-		"image"					"replay/thumbnails/hud/match_hud_brown"
+		"image"					"replay/thumbnails/match_hud_brown"
 		"scaleimage"			"1"
 	}
 }

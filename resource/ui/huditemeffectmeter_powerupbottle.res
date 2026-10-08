@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"84"	[$WIN32]
-		"ypos"			"r136"	[$WIN32]
+		"xpos"			"76"
+		"ypos"			"r136"
 		"wide"			"480"
 		"tall"			"f0"
 		"MeterFG"		"White"
@@ -38,8 +38,8 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"alpha"			"102"
-		"image"			"replay/thumbnails/panels/powercanteen/canteen_black"
+		"alpha"			"191.25"
+		"image"			"replay/thumbnails/panels/circle_brown"
 		"scaleImage"	"1"
 
 		"pin_to_sibling"	"CanteenBG"

@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/payload/cart_red"
+	"$basetexture"	"vgui/replay/thumbnails/pl/cart_blue"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"

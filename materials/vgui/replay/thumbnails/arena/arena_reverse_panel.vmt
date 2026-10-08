@@ -1,6 +1,7 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/payload/cart_bottom_red"
+	"$basetexture"	"vgui/replay/thumbnails/arena/arena_reverse_panel"
+	"$color"		"{201 58 58}"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"

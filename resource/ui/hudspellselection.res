@@ -2,8 +2,8 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"			"100"
-		"ypos"			"360"
+		"xpos"			"76"
+		"ypos"			"r136"
 	}
 			
 	"SpellBookBG"
@@ -31,8 +31,8 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"alpha"			"102"
-		"image"			"replay/thumbnails/panels/spellbook/spellbook_black"
+		"alpha"			"191.25"
+		"image"			"replay/thumbnails/panels/circle_brown"
 		"scaleImage"	"1"
 
 		"pin_to_sibling"	"SpellBookBG"

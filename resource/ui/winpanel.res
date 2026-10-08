@@ -30,7 +30,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"NewBlueScoreBG"
 			"xpos"			"50"
-			"ypos"			"-20"
+			"ypos"			"-10"
 			"zpos"			"2"
 			"wide"			"135"
 			"tall"			"87"
@@ -56,7 +56,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"alpha"		"102"
+			"alpha"		"191.25"
 			"image"		"replay/thumbnails/ammo_brown"
 			"scaleImage"	"1"
 
@@ -83,7 +83,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"NewRedScoreBG"
 			"xpos"			"197"
-			"ypos"			"-20"
+			"ypos"			"-10"
 			"zpos"			"2"
 			"wide"			"135"
 			"tall"			"87"
@@ -109,7 +109,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"alpha"		"102"
+			"alpha"		"191.25"
 			"image"		"replay/thumbnails/health_brown"
 			"scaleImage"	"1"
 
@@ -276,7 +276,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"alpha"		"102"
+			"alpha"		"191.25"
 			"image"		"replay/thumbnails/icons/team_logo_red_brown"
 			"scaleImage"	"1"
 
@@ -364,13 +364,30 @@
 		"border"		"TFFatLineBorderBlueBG"
 		"proportionaltoparent"	"1"
 	}
+	"WinPanelBGBorderShadow"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"WinPanelBGBorderShadow"
+		"xpos"			"-3"
+		"ypos"			"-3"
+		"zpos"			"-10"
+		"wide"			"p0.94"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"pin_to_sibling"	"WinPanelBGBorder"
+		"scaleImage"		"1"
+		"alpha"			"191.25"
+		"border"		"TFFatLineBorder"
+		"proportionaltoparent"	"1"
+	}
 	"WinningTeamLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
 		"font"			"HudFontMediumBold"
 		"xpos"			"15"
-		"ypos"			"77"
+		"ypos"			"84"
 		"zpos"			"1"
 		"wide"			"268"
 		"tall"			"24"
@@ -389,8 +406,8 @@
 		"fieldName"		"WinningTeamLabelDropshadow"
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"TanDarker"
-		"xpos"			"-3"
-		"ypos"			"-3"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"1"
 		"wide"			"268"
 		"tall"			"24"

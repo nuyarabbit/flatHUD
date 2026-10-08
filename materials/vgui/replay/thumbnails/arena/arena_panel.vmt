@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/pl/true_square_mask"
-	"$color"		"{201 58 58}"
+	"$basetexture"	"vgui/replay/thumbnails/arena/arena_panel"
+	"$color"		"{72 125 205}"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"

@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/hud/match_hud_right_mask"
-	"$color"		"{201 58 58}"
+	"$basetexture"	"vgui/replay/thumbnails/flag_noarrow_mask"
+	"$color"		"{46 43 42}"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"
